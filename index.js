@@ -13,7 +13,7 @@ function happyHolidaysTo (namen) {
   return( 'Happy holidays to  + $(namen) +!2' ) ;
 }
 
-function happyHolidaysTo (theDay , namen) {
+function happyHolidayTo (theDay , namen) {
   return  ("Happy " + theDay + " \, "  + namen + "!3" ) 
 }
 
@@ -25,12 +25,12 @@ function holidayCountdown (theDay ,  daysTill) {
 /*for (i = 0; i < special.length; i++) { */
   console.log( happyHolidays()) ;
   console.log(happyHolidaysTo( "James"));
-  console.log(happyHolidaysTo("James" , special[2]));
+  console.log(happyHolidayTo("James" , special[2]));
   console.log(holidayCountdown(md , 25));
   
   console.log( happyHolidays()) ;
   console.log( happyHolidaysTo( "James"));
-  console.log( happyHolidaysTo(md ,"James"));
+  console.log( happyHolidayTo(md ,"James"));
   console.log( holidayCountdown(md , 25));
   
    happyHolidays() ;

@@ -21,19 +21,11 @@ function holidayCountdown (theDay ,  daysTill) {
 }
 
 
-/*for (i = 0; i < special.length; i++) { */
-  console.log( happyHolidays()) ;
-  console.log(happyHolidaysTo( "James"));
-  console.log(happyHolidayTo("James" , special(2)));
-  console.log(holidayCountdown(md , 25));
+
   
   console.log( happyHolidays()) ;
   console.log( happyHolidaysTo( "James"));
   console.log( happyHolidayTo(md ,"James"));
   console.log( holidayCountdown(md , 25));
   
-   happyHolidays() ;
-   happyHolidaysTo( "James");
-  happyHolidaysTo(md ,"James");
-  holidayCountdown(md , 25);
   

@@ -10,15 +10,15 @@ function happyHolidays ()  {
 
 function happyHolidaysTo (namen) {
   console.log("Second Function!")
-  return( 'Happy holidays to  ' + namen + '!2' ) ;
+  return( 'Happy holidays to  ' + namen + '!' ) ;
 }
 
 function happyHolidayTo (theDay , namen) {
-  return  ("Happy " + theDay + " \, "  + namen + "!3" ) 
+  return  ("Happy " + theDay + "\, "  + namen + "!" ) 
 }
 
 function holidayCountdown (theDay ,  daysTill) {
-  return  ("It\'s " +  daysTill + " days until " + theDay +"!4" ) 
+  return  ("It\'s " +  daysTill + " days until " + theDay +"!" ) 
 }
 
 

@@ -1,7 +1,6 @@
 // write your code below!
 //Happy Coding Day
-var hh = "Happy holidays"
-const special = ("Easter" , "New Year" , "Labor Day") 
+
 var md  = "Mother\'s Day";
 
 function happyHolidays ()  {

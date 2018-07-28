@@ -9,7 +9,6 @@ function happyHolidays ()  {
 }
 
 function happyHolidaysTo (namen) {
-  console.log("Second Function!")
   return( 'Happy holidays, ' + namen + '!' ) ;
 }
 
